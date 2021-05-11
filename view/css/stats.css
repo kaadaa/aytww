@@ -1,0 +1,87 @@
+#statsfiltertab
+ {
+  border-collapse: collapse;
+  border-spacing: 0px; 
+  width: 100%;
+ }
+ 
+#statsfiltertab td
+ {
+  width: 25%;
+ }
+ 
+.statstex{
+ text-align: right;
+ padding: 10px 3px;
+}
+
+.statsinp{
+ text-align: left;
+ padding: 5px 3px;
+}
+
+#statsdate{
+ border-radius: 5px;
+ box-shadow: black 2px 3px 5px;
+ font-family: monospace;
+ font-size: 15px;
+ width: 140px;
+}
+
+#statstable{
+ border-collapse: collapse;
+ border-spacing: 0px; 
+ margin-left:auto; 
+ margin-right:auto;
+ text-align: center;
+ width: auto;
+ box-shadow: black 4px 6px 10px;
+}
+ 
+#statstable td, #statstable th{
+ padding: 3px;
+ border: 1px solid grey;
+ min-width: 60px;
+}
+
+#statstable tr{
+ border: 2px solid grey;
+ background-color: #DDDDDD; 
+ background-image:         linear-gradient(to bottom, #DDDDDD, #EEEEEE);
+}
+
+#statstable tr:nth-child(odd){ 
+ background-color: #DDDDDD;
+ background-image:         linear-gradient(to bottom, #DDDDDD, #EEEEEE); 
+}
+
+#statstable tr:nth-child(even){
+ background-color: #FFFFDD;
+ background-image:         linear-gradient(to bottom, #FFFFDD, #FFFFFA); 
+}  
+ 
+#statstable th{ 
+ background: #AACCCC;
+}
+
+#statslist{
+ position: absolute;
+ border: 3px solid #006677;
+ left: 2%;
+ top: calc(2% + 60px);
+ width: calc(90% - 36px);
+ height: calc(96% - 96px);
+ padding: 15px;
+ border-radius: 8px;
+}   
+ 
+#statslist h2{
+ margin-top: -30px;
+ margin-bottom: 5px;
+ background: white;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 170px;
+ color: #006677; 
+}

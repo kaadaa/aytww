@@ -1,0 +1,200 @@
+#loglfiltertab
+ {
+  border-collapse: collapse;
+  border-spacing: 0px; 
+  width: 100%;
+ }
+ 
+#loglfiltertab td
+ {
+  width: 25%;
+ }
+ 
+.logtex{
+ text-align: right;
+ padding: 10px 3px;
+}
+
+.loginp{
+ text-align: left;
+ padding: 5px 3px;
+}
+
+#logdatefrom, #logdateto{
+ border-radius: 5px;
+ box-shadow: black 2px 3px 5px;
+ font-family: monospace;
+ font-size: 15px;
+ width: 140px;
+}
+
+#logltable{
+ border-collapse: collapse;
+ border-spacing: 0px; 
+ margin-left:auto; 
+ margin-right:auto;
+ text-align: center;
+ width: 100%;
+ box-shadow: black 4px 6px 10px;
+}
+ 
+#logltable td, #logltable th{
+ padding: 3px;
+ border: 1px solid grey;
+}
+
+#loglrows tr{
+ cursor: pointer;
+}
+
+#loglrows tr:hover:nth-child(n){
+ background-color: #FFCCDD; 
+ background-image:         linear-gradient(to bottom, #DDAAAA, #FFAAAA);
+}
+
+#logltable tr{
+ border: 2px solid grey;
+ background-color: #DDDDDD; 
+ background-image:         linear-gradient(to bottom, #DDDDDD, #EEEEEE);
+}
+
+#logltable tr:nth-child(odd){ 
+ background-color: #DDDDDD;
+ background-image:         linear-gradient(to bottom, #DDDDDD, #EEEEEE); 
+}
+
+#logltable tr:nth-child(even){
+ background-color: #FFFFDD;
+ background-image:         linear-gradient(to bottom, #FFFFDD, #FFFFFA); 
+}  
+ 
+#logltable th{ 
+ background: #AACCCC;
+}
+
+#logltab::-webkit-scrollbar-track, #logdtab::-webkit-scrollbar-track{
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ background-color: #F5F5F5;  
+}
+
+#logltab::-webkit-scrollbar, #logdtab::-webkit-scrollbar{
+ width: 10px;
+ background-color: #F5F5F5; 
+}
+
+#logltab::-webkit-scrollbar-thumb, #logdtab::-webkit-scrollbar-thumb{
+ background-image: -webkit-gradient(linear,
+								   left bottom,
+								   left top,
+								   color-stop(0.44, rgb(122,153,217)),
+								   color-stop(0.72, rgb(73,125,189)),
+								   color-stop(0.86, rgb(28,58,148))); 
+}    
+ 
+
+#loglist{
+ position: absolute;
+ border: 3px solid #006677;
+ left: 2%;
+ top: calc(2% + 60px);
+ width: calc(47% - 36px);
+ height: calc(96% - 96px);
+ padding: 15px;
+ border-radius: 8px;
+}   
+ 
+#loglist h2{
+ margin-top: -30px;
+ margin-bottom: 5px;
+ background: white;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 200px;
+ color: #006677; 
+}
+
+#logltab{
+ width: calc(100% - 36px);
+ position: absolute;
+ top: 80px;
+ bottom: 15px;
+ overflow: auto; 
+} 
+
+#logdetail{
+ position: absolute;
+ border: 3px solid #006677;
+ right: 2%;
+ top: calc(2% + 60px);
+ width: calc(47% - 36px);
+ padding: 15px;
+ border-radius: 8px;
+ height: calc(96% - 96px);
+}  
+ 
+#logdetail h2{   
+ margin-top: -30px;
+ margin-bottom: 5px;
+ background: white;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 210px;
+ color: #006677;  
+}
+ 
+#logdtab{
+ width: calc(100% - 36px);
+ position: absolute;
+ top: 60px;
+ bottom: 15px;
+ overflow: auto; 
+} 
+
+#logoperator{
+ font-size: 18px;
+ font-family: sans-serif;
+ font-weight: bold;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ color: #002233;
+ height: 20px;
+ margin-top: 20px;
+}
+
+#logdtable{
+ border-collapse: collapse;
+ border-spacing: 0px; 
+ margin-left:auto; 
+ margin-right:auto;
+ text-align: center;
+ width: 100%;
+ box-shadow: black 4px 6px 10px;
+}
+ 
+#logdtable td, #logdtable th{ 
+ padding: 3px;
+ border: 1px solid grey;
+}
+
+#logdtable tr{
+ border: 2px solid grey;
+ background-color: #EEFFCC; 
+ background-image:         linear-gradient(to bottom, #BBFFB8;, #EEEEEE);
+}
+
+#logdtable tr:nth-child(odd){ 
+ background-color: #EEFFCC;
+ background-image:         linear-gradient(to bottom, #BBFFB8;, #EEEEEE); 
+}
+
+#logdtable tr:nth-child(even){
+ background-color: #FFFFDD;
+ background-image:         linear-gradient(to bottom, #FFFFDD, #FFFFFA); 
+}  
+ 
+#logdtable th{ 
+ background: #AAFFCC;
+}

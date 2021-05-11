@@ -1,0 +1,223 @@
+#login{
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ top: 40%;
+ text-align: center; 
+ height: 100px;
+ width: auto;
+}
+
+#operator{
+ margin: 0px 20px 0px 20px;
+ padding-left: 0px;
+ width: 150px;
+ height: 60px;
+ line-height: 60px;
+ font-size: 35px;
+ border: 4px solid black;
+ border-radius: 7px;
+ box-shadow: 4px 6px 12px black;
+ text-align: center;
+ float: left;
+ outline: none;
+}
+
+#loginbtn{
+ height: 64px;
+ float: left;
+}  
+         
+#logintext{
+ margin-top: 100px;
+ margin-left: auto;
+ margin-right: auto;
+ height: 30px;
+ font-size: 30px;
+ font-weight: bolder;
+ text-align: center;
+ display: none;
+}
+
+#scanmenu{
+ left: 0px;
+ top: 0px;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+}
+
+#head{
+ position: fixed;
+ height: 50px;
+ width: 100%;
+ background-color: #006677;
+ padding-top: 2px;
+ padding-bottom: 1px;
+ border-bottom: 3px solid #777777;
+ color: white;
+ line-height: 32px;
+ box-shadow: #aaaaaa 0px 5px 6px; 
+}
+
+#clock{
+ margin: 3px;
+ height: 48px;
+ font-size: 25px;
+ line-height: 48px;
+ float: left;
+}
+
+#dat{   
+ margin: 3px;
+ height: 48px;
+ font-size: 25px;
+ line-height: 48px;
+ float: left;
+}
+
+.datetime{
+ margin: 7px 10px 7px 35px;
+ height: 40px;
+ float: left;
+}
+
+#logedin{
+ margin: 3px;
+ height: 44px;
+ font-size: 24px;
+ line-height: 44px;
+ float: right;
+}
+
+#logoutbtn, #viewbtn{
+ margin: 3px 20px 3px 5px;
+ cursor: pointer;
+ height: 44px;
+ float: right;
+}
+
+#logoutbtn:hover, #viewbtn:hover{
+ margin: 0px 17px 0px 2px;
+ height: 50px;
+}
+
+#states{
+ position: absolute;
+ top: 20%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 940px;
+}
+
+.state{
+ cursor: pointer;
+ height: 128px;
+ margin: 20px 30px;
+ float: left;
+}
+
+#code{
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 500px;
+ height: 60px;
+ line-height: 60px;
+ font-size: 35px;
+ border: 5px solid #005566;
+ border-radius: 7px;
+ box-shadow: 4px 6px 12px #333333;
+ text-align: center;
+ outline: none;
+}
+
+#idnok{
+ position: absolute;
+ top: 55%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 200px;
+ height: 60px;
+ line-height: 60px;
+ font-size: 35px;
+ border: 5px solid #005566;
+ border-radius: 7px;
+ box-shadow: 4px 6px 12px #333333;
+ text-align: center;
+ outline: none;
+ display: none;
+}
+
+#abcode{
+ position: absolute;
+ top: 55%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 500px;
+ height: 60px;
+ line-height: 60px;
+ font-size: 35px;
+ border: 5px solid #005566;
+ border-radius: 7px;
+ box-shadow: 4px 6px 12px #333333;
+ text-align: center;
+ outline: none;
+ display: none;
+}
+
+::-webkit-inner-spin-button { display: none; }
+
+#counters_l{
+ position: absolute;
+ left: 10px;
+ top: 80px;
+ font-size: 30px;
+}
+
+#counters_r{
+ position: absolute;
+ right: 10px;
+ top: 80px;
+ font-size: 30px;
+}
+
+#status{
+ position: fixed;
+ top: 70%;
+ left: 50%;
+ min-width: 800;
+ min-height: 200px;
+ max-height: 300px;
+ border-radius: 20px;
+ box-shadow: 4px 6px 20px black; 
+ font-size: 50px;
+ font-weight: bolder;
+ line-height: 100px;
+ text-align: center;
+ transform: translate(-50%, -50%);
+ display: none;
+ white-space: nowrap;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+ 
+#logo{
+ position: fixed;
+ right: 10px;
+ bottom: 10px;
+ height: 20px;
+ line-height: 20px;
+ font-size: 15px;
+}
+
+#logo img{
+ padding: 0px;
+ height: 20px;
+ float: left;
+}
+
+#err{
+ display: none;
+}

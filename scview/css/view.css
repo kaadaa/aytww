@@ -1,0 +1,251 @@
+#filtertab
+ {
+  border-collapse: collapse;
+  border-spacing: 0px; 
+  width: 100%;
+ }
+ 
+#filtertab td
+ {
+  width: 12%;
+ }
+ 
+.tex{
+ text-align: right;
+ padding: 10px 3px;
+}
+
+.inp{
+ text-align: left;
+  padding: 5px 3px;
+}
+
+#datefrom, #dateto{
+ border-radius: 5px;
+ box-shadow: black 2px 3px 5px;
+ font-family: monospace;
+ font-size: 15px;
+ width: 140px;
+}
+
+#product, #operator{
+ padding: 5px;
+ border-radius: 5px;
+ box-shadow: black 2px 3px 5px;
+ font-family: monospace;
+ font-size: 15px;
+ width: 145px;
+}
+
+#ok, #repair, #decide, #nok, #scrap, #fb, #fc, #rb, #rc, #am, #pm{
+ -webkit-transform: scale(2)
+}
+
+#prodlist{
+ border-collapse: collapse;
+ border-spacing: 0px; 
+ margin-left:auto; 
+ margin-right:auto;
+ text-align: center;
+ width: 100%;
+ box-shadow: black 4px 6px 10px;
+}
+ 
+#prodlist td, #prodlist th{
+ padding: 3px;
+ border: 1px solid grey;
+}
+
+#prodrows tr{
+ cursor: pointer;
+}
+
+#prodrows tr:hover:nth-child(n){
+ background-color: #FFCCDD; 
+ background-image:         linear-gradient(to bottom, #DDAAAA, #FFAAAA);
+}
+
+#prodlist tr{
+ border: 2px solid grey;
+ background-color: #DDDDDD; 
+ background-image:         linear-gradient(to bottom, #DDDDDD, #EEEEEE);
+}
+
+#prodlist tr:nth-child(odd){ 
+ background-color: #DDDDDD;
+ background-image:         linear-gradient(to bottom, #DDDDDD, #EEEEEE); 
+}
+
+#prodlist tr:nth-child(even){
+ background-color: #FFFFDD;
+ background-image:         linear-gradient(to bottom, #FFFFDD, #FFFFFA); 
+}  
+ 
+#prodlist th{ 
+ background: #AACCCC;
+}
+
+#prodlisttab::-webkit-scrollbar-track, #prodscanstab::-webkit-scrollbar-track{
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ background-color: #F5F5F5;  
+}
+
+#prodlisttab::-webkit-scrollbar, #prodscanstab::-webkit-scrollbar{
+ width: 10px;
+ background-color: #F5F5F5; 
+}
+
+#prodlisttab::-webkit-scrollbar-thumb, #prodscanstab::-webkit-scrollbar-thumb{
+ background-image: -webkit-gradient(linear,
+								   left bottom,
+								   left top,
+								   color-stop(0.44, rgb(122,153,217)),
+								   color-stop(0.72, rgb(73,125,189)),
+								   color-stop(0.86, rgb(28,58,148))); 
+}    
+ 
+
+#filter{
+ position: absolute;
+ border: 3px solid #006677;
+ left: 2%;
+ top: calc(2% + 60px);
+ width: calc(47% - 36px);
+ height: calc(96% - 96px);
+ padding: 15px;
+ border-radius: 8px;
+}   
+ 
+#filter h2{
+ margin-top: -30px;
+ margin-bottom: 5px;
+ background: white;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 250px;
+ color: #006677; 
+}
+
+#rowscount{
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ font-size: 18px;
+ font-family: sans-serif;
+ color: #002233;
+}
+
+#prodlisttab{
+ width: calc(100% - 36px);
+ position: absolute;
+ top: 205px;
+ bottom: 15px;
+ overflow: auto; 
+} 
+
+#proddetail{
+ position: absolute;
+ border: 3px solid #006677;
+ right: 2%;
+ top: calc(2% + 60px);
+ width: calc(47% - 36px);
+ padding: 15px;
+ border-radius: 8px;
+ height: calc(96% - 96px);
+}  
+ 
+#proddetail h2{   
+ margin-top: -30px;
+ margin-bottom: 5px;
+ background: white;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 180px;
+ color: #006677;  
+}
+ 
+#prodscanstab{
+ width: calc(100% - 36px);
+ position: absolute;
+ top: 90px;
+ bottom: 15px;
+ overflow: auto; 
+} 
+
+#prodproduct, #prodpserial, #prodstate{
+ position: absolute;
+ font-size: 18px;
+ font-family: sans-serif;
+ color: #002233;
+}
+
+#prodproduct{
+ height: 20px;
+ left: 20px;
+ top: 20px;
+}
+
+#prodpserial{
+ height: 20px;
+ left: 20px;
+ top: 50px;
+}
+
+#prodstate{
+ height: 50px;
+ top: 20px;
+ right: 150px;
+ line-height: 50px;  
+}
+  
+#prodstate img{
+ height: 50px;
+ float: right;
+ margin-left: 10px;
+}
+
+#prodscans{
+ border-collapse: collapse;
+ border-spacing: 0px; 
+ margin-left:auto; 
+ margin-right:auto;
+ text-align: center;
+ width: 100%;
+ box-shadow: black 4px 6px 10px;
+}
+ 
+#prodscans td, #prodscans th{ 
+ padding: 3px;
+ border: 1px solid grey;
+}
+
+#prodscans tr{
+ border: 2px solid grey;
+ background-color: #EEFFCC; 
+ background-image:         linear-gradient(to bottom, #BBFFB8;, #EEEEEE);
+}
+
+#prodscans tr:nth-child(odd){ 
+ background-color: #EEFFCC;
+ background-image:         linear-gradient(to bottom, #BBFFB8;, #EEEEEE); 
+}
+
+#prodscans tr:nth-child(even){
+ background-color: #FFFFDD;
+ background-image:         linear-gradient(to bottom, #FFFFDD, #FFFFFA); 
+}  
+ 
+#prodscans th{ 
+ background: #AAFFCC;
+}
+
+#prodscans img{
+ height: 15px;
+}
+
+#vmore{
+ cursor: pointer;
+ background: #AACCCC; 
+}

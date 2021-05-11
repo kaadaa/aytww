@@ -1,0 +1,214 @@
+#scrapslist{
+ position: absolute;
+ border: 3px solid #006677;
+ left: 2.5%;
+ top: calc(2% + 60px);
+ width: calc(95% - 36px);
+ padding: 15px;
+ border-radius: 8px;
+ height: calc(96% - 96px);
+}  
+ 
+#scrapslist h2{   
+ margin-top: -30px;
+ margin-bottom: 5px;
+ background: white;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 150px;
+ color: #006677;  
+}
+
+#scfiltertab
+ {
+  border-collapse: collapse;
+  border-spacing: 0px; 
+  width: 50%;
+ }
+ 
+#scfiltertab td
+ {
+  width: 12%;
+ }
+ 
+.sctex{
+ text-align: right;
+ padding: 10px 3px;
+}
+
+.scinp{
+ text-align: left;
+  padding: 5px 3px;
+}
+
+#scdatefrom, #scdateto{
+ border-radius: 5px;
+ box-shadow: black 2px 3px 5px;
+ font-family: monospace;
+ font-size: 15px;
+ width: 140px;
+}
+
+#scam, #scpm, #scfb, #scfc, #scrb, #scrc{
+ -webkit-transform: scale(2)
+}
+
+#scrapstab{
+ width: 50%;
+ position: absolute;
+ top: 160px;
+ bottom: 15px;
+ overflow: auto; 
+} 
+
+#scrapstable{
+ border-collapse: collapse;
+ border-spacing: 0px; 
+ text-align: center;
+ width: 100%;
+ box-shadow: black 4px 6px 10px; 
+}
+ 
+#scrapstable td{
+ padding: 2px 0px;
+ line-height: 20px;
+ height: 20px;
+ border: 1px solid grey;
+}
+
+#scrapstable tr{
+ border: 2px solid grey;
+ background-color: #DDFFDD; 
+ background-image:         linear-gradient(to bottom, #DDFFDD, #EEFFEE);
+}
+
+#scrapstable tr:nth-child(odd){ 
+ background-color: #DDDDDD;
+ background-image:         linear-gradient(to bottom, #DDFFDD, #EEFFEE); 
+}
+
+#scrapstable tr:nth-child(even){
+ background-color: #FFFFDD;
+ background-image:         linear-gradient(to bottom, #FFFFDD, #FFFFFA); 
+}  
+ 
+#scrapstable th{ 
+ background: #AACCCC;
+}
+
+#scrapstab::-webkit-scrollbar-track{
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ background-color: #F5F5F5;  
+}
+
+#scrapstab::-webkit-scrollbar{
+ width: 10px;
+ background-color: #F5F5F5; 
+}
+
+#scrapstab::-webkit-scrollbar-thumb{
+ background-image: -webkit-gradient(linear,
+								   left bottom,
+								   left top,
+								   color-stop(0.44, rgb(122,153,217)),
+								   color-stop(0.72, rgb(73,125,189)),
+								   color-stop(0.86, rgb(28,58,148))); 
+}          
+
+#scrowscount{
+ width: 200px;
+ margin-left: calc(25% - 100px);
+ text-align: center;
+ font-size: 18px;
+ font-family: sans-serif;
+ color: #002233;
+}
+
+#nokchart{
+ position: absolute;
+ right: 10%;
+ top: 100px;
+ max-width: 35%;
+ max-height: 40%;   
+}
+
+#operatorchart{
+ position: absolute;
+ right: 10%;
+ top: calc(35% + 130px);
+ max-width: 35%;
+ max-height: 35%;     
+}
+
+#ppm{
+ position: absolute;
+ right: 10%;
+ width: 35%; 
+ top: calc(70% + 130px);
+}
+
+#ppmtable{
+ margin-left: auto;
+ margin-right: auto;
+ border-collapse: collapse;
+ border-spacing: 0px; 
+ margin-top: 10px;
+ text-align: center;
+ box-shadow: black 4px 6px 10px;
+}
+
+#ppmtable th{ 
+ background: #AACCCC;
+}
+
+#ppmtable tr{
+ border: 2px solid grey;
+ background-color: #DDFFDD; 
+ background-image:         linear-gradient(to bottom, #DDFFDD, #EEFFEE);
+}
+
+#ppmtable td{
+ padding: 2px 0px;
+ line-height: 20px;
+ height: 20px;
+ border: 1px solid grey;
+}
+
+#smore{
+ cursor: pointer;
+ background: #AACCCC; 
+}
+
+#scrap_print{
+ display: none;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#scrap_print div{
+ font-size: 20px;
+ margin-bottom: 10px;
+ text-align: center;
+ font-weight: bold;
+}
+
+#scrap_print table{
+ width: 100%;
+ border-collapse: collapse;
+}
+
+#scrap_print table tr th{
+ border: 2px solid black;
+ font-weight: bold;
+}
+
+#scrap_print table tr td{
+ border: 1px solid black;
+ padding: 0px 5px;
+}
+
+#scrap_print table tr:last-child td{
+ font-weight: bold;
+}
+
